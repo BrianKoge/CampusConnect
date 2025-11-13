@@ -185,8 +185,8 @@ Administrators have full access to manage the platform and oversee all activitie
 ## 🔗 Live Links
 
 ### Production Environment
-- **Frontend**: [Add your production frontend URL here]
-- **Backend API**: [Add your production API URL here]
+- **Frontend**: https://campusconnect-lif9.onrender.com
+- **Backend API**: https://campusconnect-backend-5m5z.onrender.com
 
 
 
