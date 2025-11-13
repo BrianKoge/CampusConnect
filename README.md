@@ -329,10 +329,11 @@ For detailed instructions on deploying both frontend and backend to Render.com, 
    - Start Command: `cd server && npm start`
    - Add environment variables (MONGODB_URI, JWT_SECRET, etc.)
 3. **Deploy Frontend**:
-   - Create Static Site on Render
+   - Create **Web Service** (not Static Site) on Render
    - Build Command: `cd client && npm install && npm run build`
-   - Publish Directory: `client/dist`
+   - Start Command: `cd client && npm start`
    - Add environment variable: `VITE_API_URL` (your backend URL)
+   - **Note**: Using Web Service instead of Static Site allows proper SPA routing support
 
 See [DEPLOYMENT.md](./DEPLOYMENT.md) for complete step-by-step instructions.
 
